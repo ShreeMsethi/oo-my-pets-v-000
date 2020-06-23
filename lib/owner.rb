@@ -68,6 +68,7 @@ class Owner
   end
   
   def list_pets
-  
+    cats.each {|cat| puts cats}
+    dogs.each {|dog| puts dogs}
   end  
 end

@@ -48,11 +48,11 @@ class Owner
    @@all << Dog.new(name, self)
   end
   
-  def walk_dogs(dog, mood)
+  def walk_dogs()
     Dog.all.each {|dog| dog.mood = "happy"}
   end
   
-  def feed_cats(cat, mood)
+  def feed_cats()
     Cat.all.each{|cat| cat.mood = "happy"}
   end
   

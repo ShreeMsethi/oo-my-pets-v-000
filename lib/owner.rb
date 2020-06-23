@@ -44,8 +44,8 @@ class Owner
     @@all << Cat.new(name, self)
   end
   
-  def buy_dog(dog)
-   @@all << Dog.new(dog)
+  def buy_dog(name)
+   @@all << Dog.new(name, self)
   end
   
   def walk_dogs(dog, mood)

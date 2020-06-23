@@ -74,8 +74,8 @@ class Owner
     # dogs.count do |dog|
     #   num_of_dogs = dog.length
     # end
-    num_of_cats = Cat.all.size
-    num_of_dogs = Dog.all.size
+    num_of_cats = Cat.self.size
+    num_of_dogs = Dog.self.size
     
     return "I have #{num_of_dogs} dog(s), and #{num_of_cats} cat(s)."
   end  

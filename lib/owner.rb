@@ -68,12 +68,14 @@ class Owner
   end
   
   def list_pets
-    cats.count do |cat|
-      cats = cat.length
-    end
-    dogs.count do |dog|
-      dogs = dog.length
-    end
+    # cats.count do |cat|
+    #   num_of_cats = cat.length
+    # end
+    # dogs.count do |dog|
+    #   num_of_dogs = dog.length
+    # end
+    
+    
     return "I have #{dogs} dog(s), and #{cats} cat(s)."
   end  
 end

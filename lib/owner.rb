@@ -67,7 +67,7 @@ class Owner
     end
   end
   
-  def list_pets
+  def list_pets(owner)
     # cats.count do |cat|
     #   num_of_cats = cat.length
     # end
